@@ -1,0 +1,95 @@
+<!DOCTYPE html> <!-- html5 DOCTYPE -->
+<html lang="en"> <!--HTML5 opening HTML tag with language. The HTML tag can also be used on it's own"-->
+
+<head>
+    <meta charset="UTF-8"> <!--HTML5 charset-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="js/style.js"/>
+
+    <title> index </title>
+
+    <!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js">
+        </script>
+    <![endif]-->
+
+</head>
+<body>
+
+    <div>
+        
+        <h1 id="title">MR BURRITOS</h1>
+        <p id="title1"> Take a order</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="agroup">
+        <div class="container">
+            <label for="name"><strong>NAME</strong></label>
+                <input type="text" name="name" id="name" required>
+        </div>
+        <div class="container">
+            <label for="surname"><strong>SURNAME</strong></label>
+                <input type="text" name="surname" id="surname" required>
+
+        </div>
+        <div class="container">
+            <label for="email"><strong>Email</strong></label>
+                <input type="email" name="email" id="email" required>
+        </div>
+
+        <div class="container">
+            <label for="username"><strong>USERNAME</strong></label>
+                <input type="text" name="username" id="username" required>
+        </div>
+     
+        <div class="container">
+            <label for="password"><strong>PASSWORD:</strong></label>
+               <br> <input type="password" id="password" required>
+            <script type="text/javascript" src="style.js"></script>
+        </div>
+        </fieldset>
+
+
+        <div class="agroup">
+            <label for="wich size you want to?"><strong> wich size you want to?</strong></label>
+            <select id="container">
+                <option selected disabled value="">CHOSE...</option>
+                <option>LARGE 7$</option>
+                <option>EXTRA LARGE 9$</option>
+                <option>SUPERSIZE 17.50$</option>
+            </select>
+
+        </div>
+
+    <fieldset class="agroup">
+        <div id="container">
+            <label for="COUPON CODE"><strong>COUPON CODE</strong></label>
+            <br>
+            <input type="text" id="COUPON" name="COUPON" id="coupon">
+
+    </div>
+    <fieldset class="agroup">
+        <div id="container">
+            <label for="N° OF BURRITOS"><strong>N° OF BURRITOS</strong></label>
+            <br>
+            <input type="text" id="N° OF BURRITOS" name="N° OF BURRITOS" id="N° OF BURRITOS"required>
+    </div>
+    </fieldset>
+
+    <fieldset class="agroup">
+        <div id="container">
+            <label for="TOTAL"><strong>ORDER VALUE</strong></label>
+            <input type="text" id="ORDER VALUE" name="ORDER VALUE" id="ORDER VALUE"required>
+    </div>
+    </fieldset>
+
+    <button class="button"type="submit"><strong>ORDER</strong></button>
+    
+
+    </form>
+
+</body>
+</html>

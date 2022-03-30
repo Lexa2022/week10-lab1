@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+/*configures the parameters of the title "Mr Burritos".*/
+#title{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000;
+    margin-right: 10%;
+}
+/*configures the parameters of the title "Take a order".*/
+#title1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    margin-left: 12%;
+    font-size: 40px;
+}
+/*sets the width of the border around typing boxes.*/
+fieldset{
+    border:0;
+}
+body{
+    background-image: url(../img/backimg.jpg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    font-family: sans-serif;
+    font-size: 25px;
+    color: #000;
+    margin-left: 35%;
+    margin-top: 5%;
+    justify-content: center;
+}
+/* all mentioned elements will have a border*/
+input, select, textarea, button{
+    border-radius: 5px;
+}
+/*Adjusts the width of typing boxes*/
+.agroup {
+    margin-bottom: 1px;
+}
+
+/*the fieldset tag draws a border around every box created within the form.*/
+fieldset, .agroup .container{
+    float: left
+    margin-right: 10px;
+}
+/*give color around button*/
+.agroup input[type="text"], .agroup input[type="email"], .agroup select, .agroup textarea{
+    padding: 3px;
+    border: 2px solid #87cefa;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
+    display: block;
+}
+/*gives distance between one box and another.*/
+.agroup select option{
+    padding-right: 3px;
+}
+/*color the typing box when you click on it.*/
+.agroup input:focus, .agroup select:focus, .agroup textarea:focus {
+    background: #87cefa;
+}
+/*configure the start button*/
+.button {
+    font-size: 20px;
+    background: blue;
+    border: 0;
+    margin-bottom: 10px;
+    color: #ffffff;
+    padding: 0.2px 0.6px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    position: absolute;
+    top: 80%;
+    left: 48%;
+    margin-right: 1%;
+    transform: translate(-48%, -48%);
+}
+/*changes the color of the button when the cursor is on top.*/
+.button:hover{
+    background: #ff0000;
+    box-shadow: inset 2px 2px 2px rgba(0,0,0,0.1);
+    text-shadow: none;
+}
+
+#check{
+    display: inline-block
+}
